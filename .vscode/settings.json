@@ -1,6 +1,11 @@
 {
     "files.associations": {
+        "*.html": "html",
         "*.embeddedhtml": "html",
-        "vector": "cpp"
+        "vector": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp"
     }
 }
