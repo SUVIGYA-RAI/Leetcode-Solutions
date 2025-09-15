@@ -8,7 +8,7 @@ class Solution {
         words_cap = new HashMap();
         words_vow = new HashMap();
 
-        for (String word : wordlist) {
+        for (String word: wordlist) {
             words_perfect.add(word);
 
             String wordlow = word.toLowerCase();
@@ -20,7 +20,7 @@ class Solution {
 
         String[] ans = new String[queries.length];
         int t = 0;
-        for (String query : queries)
+        for (String query: queries)
             ans[t++] = solve(query);
         return ans;
     }
@@ -42,7 +42,7 @@ class Solution {
 
     public String devowel(String word) {
         StringBuilder ans = new StringBuilder();
-        for (char c : word.toCharArray())
+        for (char c: word.toCharArray())
             ans.append(isVowel(c) ? '*' : c);
         return ans.toString();
     }
