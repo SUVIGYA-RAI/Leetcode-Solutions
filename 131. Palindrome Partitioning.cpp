@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 class Solution {
 public:
     bool isPalindrome(const string &s, int l, int r) {
